@@ -4,4 +4,8 @@
         android:id="@+id/help"
         android:title="@string/help_title"
         android:icon="@android:drawable/ic_menu_help" />
+    <item android:id="@+id/save_preset"
+          android:title="@string/save_preset" />
+    <item android:id="@+id/load_preset"
+          android:title="@string/load_preset" />
 </menu>

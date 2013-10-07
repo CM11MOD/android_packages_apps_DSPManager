@@ -1,5 +1,6 @@
 package com.bel.android.dspmanager.activity;
 
+import android.content.Context;
 import android.content.Intent;
 import android.content.SharedPreferences;
 import android.content.SharedPreferences.OnSharedPreferenceChangeListener;
@@ -78,6 +79,7 @@ public final class DSPScreen extends PreferenceFragment {
         PreferenceManager prefMgr = getPreferenceManager();
 
         prefMgr.setSharedPreferencesName(DSPManager.SHARED_PREFERENCES_BASENAME + "." + config);
+        prefMgr.setSharedPreferencesMode(Context.MODE_MULTI_PROCESS);
 
         try {
             int xmlId = R.xml.class.getField(config + "_preferences").getInt(null);
