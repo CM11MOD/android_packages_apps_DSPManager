@@ -15,38 +15,44 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
   <string-array name="microphone_recording_presets">
-    <item>Original</item>
-    <item>Equilibrat</item>
-    <item>Alta sensibilitat</item>
-    <item>Entorn sorollós</item>
+    <item>ئەسلى</item>
+    <item>تەڭپۇڭ</item>
+    <item>يۇقىرى سەزگۈرلۈك</item>
+    <item>ۋاراڭ-چۇرۇڭ مۇھىت</item>
   </string-array>
+
   <string-array name="headphone_modes">
-    <item>Estudi</item>
-    <item>Habitació</item>
-    <item>Habitació gran</item>
-    <item>Teatre</item>
+    <item>ئىشخانا</item>
+    <item>ئۆي</item>
+    <item>چوڭ ئۆي</item>
+    <item>سەھنە</item>
   </string-array>
+
   <string-array name="equalizer_loudness_modes">
-    <item>Inhabilitat</item>
-    <item>El més dèbil</item>
-    <item>Més dèbil</item>
-    <item>Dèbil</item>
-    <item>Fort</item>
-    <item>Més fort</item>
-    <item>El més fort</item>
+    <item>چەكلەنگەن</item>
+    <item>ئەڭ ئاجىز</item>
+    <item>ئاجىزراق</item>
+    <item>ئاجىز</item>
+    <item>كۈچلۈك</item>
+    <item>كۈچلۈكرەك</item>
+    <item>ئەڭ كۈچلۈك</item>
   </string-array>
+
   <string-array name="compression_modes">
-    <item>Lleuger</item>
-    <item>Mitjà</item>
-    <item>Extrem</item>
+    <item>يىنىك</item>
+    <item>ئوتتۇراھال</item>
+    <item>كەسكىن</item>
   </string-array>
+
   <string-array name="bassboost_modes">
-    <item>Lleuger</item>
-    <item>Mitjà</item>
-    <item>Extrem</item>
+    <item>يىنىك</item>
+    <item>ئوتتۇراھال</item>
+    <item>كەسكىن</item>
   </string-array>
+
   <string-array name="wm8994_bassboost_modes">
-    <item>Estàndard</item>
-    <item>Altaveus petits</item>
+    <item>ئۆلچەملىك</item>
+    <item>كىچىك ياڭراتقۇلار</item>
   </string-array>
+
 </resources>

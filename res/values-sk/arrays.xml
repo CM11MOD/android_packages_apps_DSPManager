@@ -15,38 +15,38 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
   <string-array name="microphone_recording_presets">
-    <item>Original</item>
-    <item>Equilibrat</item>
-    <item>Alta sensibilitat</item>
-    <item>Entorn sorollós</item>
+    <item>Originál</item>
+    <item>Vyvážené</item>
+    <item>Vysoká citlivosť</item>
+    <item>Hlučné prostredie</item>
   </string-array>
   <string-array name="headphone_modes">
-    <item>Estudi</item>
-    <item>Habitació</item>
-    <item>Habitació gran</item>
-    <item>Teatre</item>
+    <item>Štúdio</item>
+    <item>Miestnosť</item>
+    <item>Veľká miestnosť</item>
+    <item>Javisko</item>
   </string-array>
   <string-array name="equalizer_loudness_modes">
-    <item>Inhabilitat</item>
-    <item>El més dèbil</item>
-    <item>Més dèbil</item>
-    <item>Dèbil</item>
-    <item>Fort</item>
-    <item>Més fort</item>
-    <item>El més fort</item>
+    <item>Zakázané</item>
+    <item>Najslabšia</item>
+    <item>Slabšia</item>
+    <item>Slabá</item>
+    <item>Silná</item>
+    <item>Silnejšia</item>
+    <item>Najsilnejšia</item>
   </string-array>
   <string-array name="compression_modes">
-    <item>Lleuger</item>
-    <item>Mitjà</item>
-    <item>Extrem</item>
+    <item>Nepatrná</item>
+    <item>Stredná</item>
+    <item>Extrémna</item>
   </string-array>
   <string-array name="bassboost_modes">
-    <item>Lleuger</item>
-    <item>Mitjà</item>
-    <item>Extrem</item>
+    <item>Nepatrná</item>
+    <item>Stredná</item>
+    <item>Extrémna</item>
   </string-array>
   <string-array name="wm8994_bassboost_modes">
-    <item>Estàndard</item>
-    <item>Altaveus petits</item>
+    <item>Štandardné</item>
+    <item>Malé reproduktory</item>
   </string-array>
 </resources>
