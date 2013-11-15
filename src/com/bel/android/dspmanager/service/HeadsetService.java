@@ -51,6 +51,8 @@ public class HeadsetService extends Service {
         private final BassBoost mBassBoost;
         /** Session-specific virtualizer */
         private final Virtualizer mVirtualizer;
+        /** Session-specific stereo widener */
+        private final StereoWide mStereoWide;
 
         protected EffectSet(int sessionId) {
             try {
@@ -65,6 +67,7 @@ public class HeadsetService extends Service {
             mEqualizer = new Equalizer(0, sessionId);
             mBassBoost = new BassBoost(0, sessionId);
             mVirtualizer = new Virtualizer(0, sessionId);
+            mStereoWide = new StereoWide(0, sessionId);
         }
 
         protected void release() {
@@ -72,6 +75,7 @@ public class HeadsetService extends Service {
             mEqualizer.release();
             mBassBoost.release();
             mVirtualizer.release();
+            mStereoWide.release();
         }
     }
 
@@ -277,7 +281,7 @@ public class HeadsetService extends Service {
 
         session.mBassBoost.setEnabled(prefs.getBoolean("dsp.bass.enable", false));
         session.mBassBoost.setStrength(Short.valueOf(prefs.getString("dsp.bass.mode", "0")));
-        session.mBassBoost.setCenterFrequency(Short.valueOf(preferences.getString("dsp.bass.freq", "55")));
+        session.mBassBoost.setCenterFrequency(Short.valueOf(prefs.getString("dsp.bass.freq", "55")));
 
         session.mEqualizer.setEnabled(prefs.getBoolean("dsp.tone.enable", false));
         float[] equalizerLevels;
@@ -302,5 +306,8 @@ public class HeadsetService extends Service {
         session.mVirtualizer.setEnabled(prefs.getBoolean("dsp.headphone.enable", false));
         session.mVirtualizer.setStrength(
                 Short.valueOf(prefs.getString("dsp.headphone.mode", "0")));
+        session.mStereoWide.setEnabled(prefs.getBoolean("dsp.stereowide.enable", false));
+        session.mVirtualizer.setStrength(
+                Short.valueOf(preferences.getString("dsp.headphone.mode", "0")));
     }
 }
