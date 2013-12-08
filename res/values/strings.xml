@@ -243,4 +243,40 @@ width. This is controlled by the \'Room type\' control.</string>
     <string name="sc_preset_quiet">Quiet</string>
     <string name="sc_preset_stock">Stock</string>
     <string name="sc_value_changed">Please stop and resume your music to apply the values!</string>
+
+    <!-- Boeffla Sound -->
+    <string name="adv_title">Advanced Tuning</string>
+    <string name="boeffla_soundcontrol_title">Boeffla sound control</string>
+    <string name="boeffla_soundcontrol_summary">Enable boeffla sound control</string>
+    <string name="bass_freq_tuning">Bass Frequency Tuning</string>
+    <string name="dacdirect_summary">Bypass the analog channel</string>
+    <string name="dacdirect_title">DAC Direct</string>
+    <string name="dacover_summary">128x Oversampling</string>
+    <string name="dacover_title">DAC Oversampling</string>
+    <string name="fll_summary">Tune the chip clock for better quality</string>
+    <string name="fll_title">FLL Tuning</string>
+    <string name="general_title">General</string>
+    <string name="hw_eq_summary">Manually tune the frequencies</string>
+    <string name="hw_eq_title">HW Equalizer</string>
+    <string name="mic_title">Microphone</string>
+    <string name="mic_call_title">In Call Volume</string>
+    <string name="mic_gen_title">General Volume</string>
+    <string name="mono_summary">Convert stereo into mono</string>
+    <string name="mono_title">Mono Downmix</string>
+    <string name="over_saturation_suppress">Over-Saturation Suppress</string>
+    <string name="privacy_mode_summary">Mute the phone speaker while headphones are plugged in</string>
+    <string name="privacy_mode_title">Privacy Mode</string>
+    <string name="sc_preset_bass">Bass Gain</string>
+    <string name="sc_preset_balance">Bass-Treble Balance</string>
+    <string name="sc_preset_treble">Treble Gain</string>
+    <string name="sc_preset_normal">Normal</string>
+    <string name="sc_preset_classical">Classical</string>
+    <string name="sc_preset_pleasant">Pleasant</string>
+    <string name="sc_preset_eargasm">Eargasm</string>
+    <string name="speak_tune_summary">Tune up the phone speaker</string>
+    <string name="speak_tune_title">Speaker Tuning</string>
+    <string name="stereo_exp_dialogtitle">Stereo Expansion Level</string>
+    <string name="stereo_exp_summary">Improve sound deepness and clarity</string>
+    <string name="stereo_exp_title">Stereo Expansion</string>
+    <string name="volumes_title">Volumes</string>
 </resources>

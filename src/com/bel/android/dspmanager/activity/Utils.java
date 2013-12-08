@@ -115,4 +115,26 @@ public class Utils {
         }
         return sLine;
     }
+
+    public static String[] readManyLines(String path) {
+        int numberOfLines = 3;
+        String[] textData = new String[numberOfLines];
+
+        try {
+            FileReader fr = new FileReader(path);
+            BufferedReader textReader = new BufferedReader(fr);
+
+            int i;
+
+            for (i=0; i < numberOfLines; i++) {
+                textData[i] = textReader.readLine();
+            }
+
+            textReader.close();
+        } catch (Exception e) {
+            Log.e(TAG_READ, "Exception when reading /sys/ file", e);
+        }
+
+        return textData;
+    }
 }

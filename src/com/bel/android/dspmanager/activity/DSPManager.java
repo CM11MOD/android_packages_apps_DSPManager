@@ -44,6 +44,8 @@ import android.widget.TextView;
 import com.bel.android.dspmanager.R;
 import com.bel.android.dspmanager.modules.soundcontrol.SoundControl;
 import com.bel.android.dspmanager.modules.soundcontrol.SoundControlHelper;
+import com.bel.android.dspmanager.modules.boefflacontrol.BoefflaControl;
+import com.bel.android.dspmanager.modules.boefflacontrol.BoefflaControlHelper;
 import com.bel.android.dspmanager.service.HeadsetService;
 
 import java.io.File;
@@ -321,11 +323,15 @@ class MyAdapter extends FragmentPagerAdapter {
             tmpEntries.add(WM8994.NAME);
             tmpTitles.add(res.getString(R.string.wm8994_title).toUpperCase());
         }
-
         // Determine if SoundControl is supported
         if (SoundControlHelper.getSoundControlHelper(context).isSupported()) {
             tmpEntries.add(SoundControl.NAME);
             tmpTitles.add(res.getString(R.string.soundcontrol_title).toUpperCase());
+        }
+        // Determine if BoefflaSoundControl is supported
+        if (BoefflaControlHelper.getBoefflaControlHelper(context).getBoefflaControl()) {
+            tmpEntries.add(BoefflaControl.NAME);
+            tmpTitles.add(res.getString(R.string.boeffla_soundcontrol_title).toUpperCase());
         }
 
         entries = (String[]) tmpEntries.toArray(new String[tmpEntries.size()]);
@@ -354,6 +360,8 @@ class MyAdapter extends FragmentPagerAdapter {
             return new WM8994();
         } else if (entries[position].equals(SoundControl.NAME)) {
             return new SoundControl();
+        } else if (entries[position].equals(BoefflaControl.NAME)) {
+            return new BoefflaControl();
         } else {
             final DSPScreen dspFragment = new DSPScreen();
             Bundle b = new Bundle();
