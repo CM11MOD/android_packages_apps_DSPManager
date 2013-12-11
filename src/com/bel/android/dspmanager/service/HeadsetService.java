@@ -12,6 +12,7 @@ import android.media.audiofx.AudioEffect;
 import android.media.audiofx.BassBoost;
 import android.media.audiofx.Equalizer;
 import android.media.audiofx.Virtualizer;
+import android.media.audiofx.StereoWide;
 import android.os.Binder;
 import android.os.IBinder;
 import android.util.Log;
@@ -308,6 +309,6 @@ public class HeadsetService extends Service {
                 Short.valueOf(prefs.getString("dsp.headphone.mode", "0")));
         session.mStereoWide.setEnabled(prefs.getBoolean("dsp.stereowide.enable", false));
         session.mVirtualizer.setStrength(
-                Short.valueOf(preferences.getString("dsp.headphone.mode", "0")));
+                Short.valueOf(prefs.getString("dsp.headphone.mode", "0")));
     }
 }
