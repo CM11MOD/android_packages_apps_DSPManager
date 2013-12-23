@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+/* //device/apps/common/assets/res/any/strings.xml
+**
+** Copyright 2006, The Android Open Source Project
+**
+** Licensed under the Apache License, Version 2.0 (the "License");
+** you may not use this file except in compliance with the License.
+** You may obtain a copy of the License at
+**
+**     http://www.apache.org/licenses/LICENSE-2.0
+**
+** Unless required by applicable law or agreed to in writing, software
+** distributed under the License is distributed on an "AS IS" BASIS,
+** WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+** See the License for the specific language governing permissions and
+** limitations under the License.
+*/
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <!-- Boeffla Sound -->
+    <string name="adv_title">進階設定</string>
+    <string name="boeffla_soundcontrol_title">Boeffla 音效</string>
+    <string name="boeffla_soundcontrol_summary">開啟 boeffla 音效</string>
+    <string name="bass_freq_tuning">低音頻率調諧</string>
+    <string name="dacdirect_summary">繞過模擬通道</string>
+    <string name="dacdirect_title">直接使用DAC</string>
+    <string name="dacover_summary">128x </string>
+    <string name="dacover_title">DAC 採樣</string>
+    <string name="fll_summary">調整芯片的運作頻率令質量更好</string>
+    <string name="fll_title">FLL 調整</string>
+    <string name="general_title">一般</string>
+    <string name="hw_eq_summary">手動調校頻率</string>
+    <string name="hw_eq_title">硬件均衡器</string>
+    <string name="mic_title">麥克風</string>
+    <string name="mic_call_title">通話音量</string>
+    <string name="mic_gen_title">一般音量</string>
+    <string name="mono_summary">立體聲轉換成單聲道</string>
+    <string name="mono_title">單聲道縮混</string>
+    <string name="over_saturation_suppress">飽和抑制</string>
+    <string name="privacy_mode_summary">插入耳機同時把手機揚聲器靜音</string>
+    <string name="privacy_mode_title">隱私模式</string>
+    <string name="sc_preset_bass">低音增益</string>
+    <string name="sc_preset_balance">低音高音平衡</string>
+    <string name="sc_preset_treble">高音增益</string>
+    <string name="sc_preset_normal">一般</string>
+    <string name="sc_preset_classical">古典</string>
+    <string name="sc_preset_pleasant">愉快</string>
+    <string name="sc_preset_eargasm">Eargasm</string>
+    <string name="speak_tune_summary">調校電話揚聲器音量</string>
+    <string name="speak_tune_title">揚聲器調校</string>
+    <string name="stereo_exp_dialogtitle">擴展立體聲</string>
+    <string name="stereo_exp_summary">提高聲音深度和清晰度</string>
+    <string name="stereo_exp_title">擴展立體聲</string>
+    <string name="volumes_title">音量</string>
+
+</resources>
