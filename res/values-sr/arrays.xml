@@ -17,38 +17,38 @@
 -->
 <resources>
   <string-array name="microphone_recording_presets">
-    <item>Original</item>
-    <item>Equilibrado</item>
-    <item>Alta sensibilidade</item>
-    <item>Ambiente ruidoso</item>
+    <item>Оригинал</item>
+    <item>Уравнотежено</item>
+    <item>Висока осетљивост</item>
+    <item>Гласовно окружење</item>
   </string-array>
   <string-array name="headphone_modes">
-    <item>Estúdio</item>
-    <item>Quarto</item>
-    <item>Quarto grande</item>
-    <item>Palco</item>
+    <item>Студио</item>
+    <item>Соба</item>
+    <item>Велика соба</item>
+    <item>Сцена</item>
   </string-array>
   <string-array name="equalizer_loudness_modes">
-    <item>Desativado</item>
-    <item>Fraquíssimo</item>
-    <item>Mais fraco</item>
-    <item>Fraco</item>
-    <item>Forte</item>
-    <item>Mais forte</item>
-    <item>Fortíssimo</item>
+    <item>Онемогућено</item>
+    <item>Најслабије</item>
+    <item>Слабије</item>
+    <item>Слабо</item>
+    <item>Јако</item>
+    <item>Јаче</item>
+    <item>Најјаче</item>
   </string-array>
   <string-array name="compression_modes">
-    <item>Pouco</item>
-    <item>Moderado</item>
-    <item>Extremo</item>
+    <item>Благо</item>
+    <item>Уређуј</item>
+    <item>Екстремно</item>
   </string-array>
   <string-array name="bassboost_modes">
-    <item>Pouco</item>
-    <item>Moderado</item>
-    <item>Extremo</item>
+    <item>Благо</item>
+    <item>Уређуј</item>
+    <item>Екстремно</item>
   </string-array>
   <string-array name="wm8994_bassboost_modes">
-    <item>Padrão</item>
-    <item>Pequenos altifalantes</item>
+    <item>Стандардно</item>
+    <item>Мали звучници</item>
   </string-array>
 </resources>

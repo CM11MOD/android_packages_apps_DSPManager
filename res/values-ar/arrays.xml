@@ -17,38 +17,38 @@
 -->
 <resources>
   <string-array name="microphone_recording_presets">
-    <item>Original</item>
-    <item>Equilibrado</item>
-    <item>Alta sensibilidade</item>
-    <item>Ambiente ruidoso</item>
+    <item>الأصلي</item>
+    <item>متوازنة</item>
+    <item>حساسية عالية</item>
+    <item>البيئة بصوت عال</item>
   </string-array>
   <string-array name="headphone_modes">
-    <item>Estúdio</item>
-    <item>Quarto</item>
-    <item>Quarto grande</item>
-    <item>Palco</item>
+    <item>ستوديو</item>
+    <item>غرفة</item>
+    <item>غرفة كبيرة</item>
+    <item>مسرح</item>
   </string-array>
   <string-array name="equalizer_loudness_modes">
-    <item>Desativado</item>
-    <item>Fraquíssimo</item>
-    <item>Mais fraco</item>
-    <item>Fraco</item>
-    <item>Forte</item>
-    <item>Mais forte</item>
-    <item>Fortíssimo</item>
+    <item>معطلة</item>
+    <item>أضعف</item>
+    <item>الأضعف</item>
+    <item>ضعيفة</item>
+    <item>قوية</item>
+    <item>أقوى</item>
+    <item>الأقوى</item>
   </string-array>
   <string-array name="compression_modes">
-    <item>Pouco</item>
-    <item>Moderado</item>
-    <item>Extremo</item>
+    <item>طفيف</item>
+    <item>معتدل</item>
+    <item>المتطرفة</item>
   </string-array>
   <string-array name="bassboost_modes">
-    <item>Pouco</item>
-    <item>Moderado</item>
-    <item>Extremo</item>
+    <item>طفيف</item>
+    <item>معتدل</item>
+    <item>المتطرفة</item>
   </string-array>
   <string-array name="wm8994_bassboost_modes">
-    <item>Padrão</item>
-    <item>Pequenos altifalantes</item>
+    <item>قياسى</item>
+    <item>مكبرات الصوت الصغيرة</item>
   </string-array>
 </resources>
